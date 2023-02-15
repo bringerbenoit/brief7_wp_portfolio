@@ -1,5 +1,4 @@
 <?php get_header() ?>
-
     
 <section id="ancre_aboutme">
     <div class="container text-center">
@@ -29,13 +28,33 @@
     </div>
 </section>
 
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-lg-1">
+                <figure>
+                    <img src=""
+                         alt="">
+                    <figcaption>text</figcaption>
+                </figure>
+            </div>
+            <div class="cal-sm-6 col-lg-1">
+                <figure>
+                    <img src=""
+                         alt="">
+                    <figcaption>text</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section>
     <div class="container text-center">
         <div class="row bcg_color"> 
             <div class="col-12 mt-4 m-b4">
                 <div class="link">
-                    <a href="#"><h4>Mon curriculum vitae</h4></a>
+                    <a href="#"><h4 >Mon curriculum vitae</h4></a>
                 </div>
             </div>
         </div>
@@ -47,7 +66,7 @@
     <div class="container text-center ">
         <div class="row bcg_color"> 
             <div class="col-12 mt-4 m-b4">
-                <p>Après mon bac pro MELLEC j’ai voulu tester plusieurs métiers pour en trouver un qui me plairait mais le souci est que je voulais être développeur web. C’est pour ça que j’ai decidé de trouver une formation développeur web et que j'en suis là.</p>
+                <p class="color-text">Après mon bac pro MELLEC j’ai voulu tester plusieurs métiers pour en trouver un qui me plairait mais le souci est que je voulais être développeur web. C’est pour ça que j’ai decidé de trouver une formation développeur web et que j'en suis là.</p>
             </div>
         </div>
     </div>
@@ -104,7 +123,7 @@
     </div>
 </section>
 
-<div class=container>
+<div class=" container bcg_color ">
 <?php if (have_posts()): // ON verifie si on a des articles ?>
             <div class="row  text-center">
                         <?php while(have_posts()): the_post();// the_post sert a déclarer l'articles ) // on utilise cette boucle tant que il ya des articles?>
@@ -128,14 +147,7 @@
                         <?php else: ?>
                             <p> Pas d'articles </p>
                         <?php endif; ?>
-
-                        <?php wp_footer() ?>
-                        <?php get_footer() ?>
-
 </div>
-
-
-
 
 
 <?php get_footer() ?>

@@ -1,9 +1,8 @@
 </div>
-    <footer>
+    <footer class="bc_color_footer">
     <section id="ancre_contact">
-    <div class="container text-center bcg_color">
-        <div class="row bcg_color_row2"> 
-            <div class="col-12 mb-4 mt-4">
+    <div class="container text-center"> 
+            <div class="col-12 mb-4 ">
                 <h5>CONTACT</h5>
             </div>
         </div>
@@ -12,8 +11,8 @@
 
 
     <section>
-    <div class="container text-center ">
-        <div class="row bcg_color_row">
+    <div class="container text-center">
+        <div class="row ">
                 <div class="col-12 col-lg-7 mt-4 m-b4">
                     <form>
                         <div class="mb-3">
@@ -28,8 +27,8 @@
                     </form>
                 </div>
             <div class="col-12 col-lg-4 align-self-center mt-4 m-b4">
-                <p>bringer.benoit48@gmail.com</p>
-                <p>07.85.53.16.37</p>
+                <p class="color-text">bringer.benoit48@gmail.com</p>
+                <p class="color-text">07.85.53.16.37</p>
                 <a href="https://github.com/bringerbenoit"><i class="bi bi-linkedin"></i></a> 
             </div>
         </div>

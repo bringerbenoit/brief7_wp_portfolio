@@ -23,11 +23,26 @@ Version: 0.1
 
 }
 
+
+.card{
+    background-color: #2F4558;
+    border: 2px solid black;
+}
+.card-body{
+    background-color: #2F4558;
+}
+
+.bc_color_footer{
+    background-color: #2F4558;
+    border-top: 2px solid #000000;
+}
+
+
 .color-text{
     color: #F6B12D;
 }
 
-.bgimg{
+.img-header{
     background-image: url(http://localhost/wordpress-Portfolio/wp-content/uploads/2023/02/web-design-2038872-scaled.jpg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -80,4 +95,9 @@ Version: 0.1
     margin-bottom: 25px;
     background-color: #000000;
 
+}
+
+a{
+    text-decoration: none;
+    color: #F6B12D;
 }
